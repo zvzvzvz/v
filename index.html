@@ -6,6 +6,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    document.querySelectorAll(`.x-grid3-cell-inner`).forEach(e=>{!e.innerText.length&&(e.innerText="5")});
+    document.querySelectorAll(`.x-grid3-cell-inner`).forEach(e=>{e.innerText.length<=1&&(e.innerText="5")});
 </body>
 </html>
